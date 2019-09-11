@@ -2,11 +2,6 @@
 *.tfstate
 *.tfstate.*
 *.tfstate.backup
-#
-# # Module directory
-.terraform/
-#
-# # Other
 certs/ovpn*
 client_configs/*.ovpn
 cert_details
