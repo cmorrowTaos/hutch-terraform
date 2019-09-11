@@ -1,10 +1,1 @@
-# Compiled files
-*.tfstate
-*.tfstate.*
-*.tfstate.backup
-certs/ovpn*
-client_configs/*.ovpn
-cert_details
-.idea/*
-.DS_Store
 account.json
