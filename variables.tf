@@ -1,9 +1,9 @@
 variable "region" {
-  default = "northamerica-northeast1"
+  default = "us-central1-a"
 }
 
 variable "zone" {
-  default = "northamerica-northeast1-a"
+  default = "us-central1-a"
 }
 
 variable "project" {
@@ -11,15 +11,15 @@ variable "project" {
 }
 
 variable "private_key_file" {
-  default = "../certs/ovpn"
+  default = "./certs/ovpn"
 }
 
 variable "public_key_file" {
-  default = "../certs/ovpn.pub"
+  default = "./certs/ovpn.pub"
 }
 
 variable "client_config_path" {
-  default = "../client_configs"
+  default = "./client_configs"
 }
 
 variable "client_config_name" {
@@ -27,6 +27,6 @@ variable "client_config_name" {
 }
 
 variable "cert_details" {
-  default = "../cert_details"
+  default = "./cert_details.sh"
 }
 
