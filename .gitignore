@@ -1,1 +1,3 @@
+certs/ovpn
+certs/ovpn.pub
 *.account.json
