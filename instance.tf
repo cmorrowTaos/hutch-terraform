@@ -16,7 +16,7 @@ resource "google_compute_instance" "ovpn" {
 
   network_interface {
     network = "${google_compute_network.ovpn.name}"
-
+    access_config = {}
   }
 
   service_account {

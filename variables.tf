@@ -7,7 +7,7 @@ variable "zone" {
 }
 
 variable "project" {
-  default = "terraform-vpn"
+  default = "hutch-experiment"
 }
 
 variable "private_key_file" {
